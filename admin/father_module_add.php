@@ -32,77 +32,77 @@ if(isset($_POST['submit'])){
 		<table class="au">
 			<tr>
 				<td>Currency</td>
-				<td><input name="currency_name" value="<?php echo $data['currency']?>" type="text" /></td>
+				<td><input name="currency_name" type="text" /></td>
 				<td>
 					The module name can't be empty, and the size must less than 30
 				</td>
 			</tr>
 			<tr>
 				<td>Price</td>
-				<td><input name="price" value="<?php echo $data['open']?>" type="text" /></td>
+				<td><input name="price" type="text" /></td>
 				<td>
 					The module name can't be empty, and the size must less than 66
 				</td>
 			</tr>
 			<tr>
 				<td>Date</td>
-				<td><input name="date" value="<?php echo $data['date']?>" type="text" /></td>
+				<td><input name="date" type="text" /></td>
 				<td>
 					One number is advisiable.
 				</td>
 			</tr>
 			<tr>
 				<td>High</td>
-				<td><input name="high" value="<?php echo $data['high']?>" type="text" /></td>
+				<td><input name="high" type="text" /></td>
 				<td>
 					One number is advisiable.
 				</td>
 			</tr>
 			<tr>
 				<td>Low</td>
-				<td><input name="low" value="<?php echo $data['low']?>" type="text" /></td>
+				<td><input name="low" type="text" /></td>
 				<td>
 					One number is advisiable.
 				</td>
 			</tr>
 			<tr>
 				<td>Close</td>
-				<td><input name="close" value="<?php echo $data['close']?>" type="text" /></td>
+				<td><input name="close" type="text" /></td>
 				<td>
 					One number is advisiable.
 				</td>
 			</tr>
 			<tr>
 				<td>volume</td>
-				<td><input name="volume" value="<?php echo $data['volume']?>" type="text" /></td>
+				<td><input name="volume" type="text" /></td>
 				<td>
 					One number is advisiable.
 				</td>
 			</tr>
 			<tr>
 				<td>MarketCap</td>
-				<td><input name="marketcap" value="<?php echo $data['marketCap']?>" type="text" /></td>
+				<td><input name="marketcap" type="text" /></td>
 				<td>
 					One number is advisiable.
 				</td>
 			</tr>
 			<tr>
 				<td>24hChange</td>
-				<td><input name="24hchange" value="<?php echo $data['24hChange']?>" type="text" /></td>
+				<td><input name="24hchange" type="text" /></td>
 				<td>
 					One number is advisiable.
 				</td>
 			</tr>
 			<tr>
 				<td>7dChange</td>
-				<td><input name="7dchange" value="<?php echo $data['7dChange']?>" type="text" /></td>
+				<td><input name="7dchange" type="text" /></td>
 				<td>
 					One number is advisiable.
 				</td>
 			</tr>
 			<tr>
 				<td>30dChange</td>
-				<td><input name="30dchange" value="<?php echo $data['30dChange']?>" type="text" /></td>
+				<td><input name="30dchange" type="text" /></td>
 				<td>
 					One number is advisiable.
 				</td>
