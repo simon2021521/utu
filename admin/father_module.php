@@ -45,7 +45,7 @@ $title='father_module';
 				//不需要解密，因为GET自动解密。
 			$url=urlencode("delete.php?id={$data['id']}");//将此url封装
 			$return_url=urlencode($_SERVER['REQUEST_URI']);//当前地址封装
-			$message="Are you sure you want to delete this module {$data['module_name']}";
+			$message="Are you sure you want to delete this module {$data['currency']}";
 			$delete_url="delete_confirm.php?url={$url}&return_url={$return_url}&message={$message}";
 $html = <<<A
 			<tr>
